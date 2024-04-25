@@ -1,0 +1,9 @@
+.title-dashboard{
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(88, 105, 255);
+    box-shadow: 1px 1px 5px 0 black;
+    margin-bottom: 50px;
+    font-size: 30px;
+}

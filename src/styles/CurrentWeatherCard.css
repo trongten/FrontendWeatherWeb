@@ -1,0 +1,15 @@
+.current-weather-card{
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right bottom, rgb(76, 94, 255), #b7f6fe);
+    height: fit-content;
+    border-radius: 20px;
+    line-height: 35px;
+    box-shadow: 3px 3px 10px 0 black;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+}

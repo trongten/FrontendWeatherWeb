@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import Weather from './containers/Weather';
 
 function App() {
