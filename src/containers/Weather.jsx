@@ -3,9 +3,9 @@ import WeatherCard from "../components/WeatherCard";
 import "../styles/titledashboard.css";
 import LocationInput from "../components/LocationInput";
 import CurrentWeatherCard from "../components/CurrentWeatherCard";
-import Popup from "../components/PopUp";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import PopUp from "../components/PopUp";
 
 function Weather() {
   const [data,setData] = useState([]);
@@ -43,7 +43,7 @@ function Weather() {
         </div><WeatherCard data={data.forecast?.forecastday} onClick={callAPI} loadMore={loadMore} onSetLoadMore={setLoadMore} country={data.location?.name}/>
       </div>
       </div>
-       {showPopup && <Popup noti={notify} onClose={setShowPopup}/>}
+       {showPopup && <PopUp noti={notify} onClose={setShowPopup}/>}
        <ToastContainer />
     </div>
   );

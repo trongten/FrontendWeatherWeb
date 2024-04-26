@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../styles/popup.css";
 
-function Popup(props) {
+function PopUp(props) {
   const [showConfirm, setShowConfirm] = useState(false);
   const [inputEmail, setInputEmail] = useState('');
   const [inputCode, setInputCode] = useState('');
@@ -105,4 +105,4 @@ function Popup(props) {
     </div>
   );
 }
-export default Popup;
+export default PopUp;
