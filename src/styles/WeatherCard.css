@@ -4,7 +4,7 @@
     text-align: left;
     color: aliceblue;
     background-color: gray;
-    height: fit-content;
+    min-height: 280px;
     width: fit-content;
     border-radius: 20px;
     line-height: 35px;
