@@ -18,4 +18,7 @@ Deploy: https://weatherforecast-demo.netlify.app/
     ```bash
     npm start
     ```
-
+2.Access the Laravel project in your web browser:
+    ```
+    http://localhost:8081
+    ```
