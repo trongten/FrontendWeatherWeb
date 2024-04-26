@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/WeatherCard.css";
+import "../styles/weathercard.css";
 
 function WeatherCard(props) {
     const PER = 6;

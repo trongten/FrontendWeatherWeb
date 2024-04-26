@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../styles/Localtioninput.css"
+import "../styles/localtioninput.css"
 
 function LocationInput(props) {
 

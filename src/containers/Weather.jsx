@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import WeatherCard from "../components/WeatherCard";
-import "../styles/TitleDashboard.css";
+import "../styles/titledashboard.css";
 import LocationInput from "../components/LocationInput";
 import CurrentWeatherCard from "../components/CurrentWeatherCard";
 import Popup from "../components/PopUp";

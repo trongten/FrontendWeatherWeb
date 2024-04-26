@@ -1,4 +1,4 @@
-import "../styles/CurrentWeatherCard.css";
+import "../styles/currentweathercard.css";
 
 function CurrentWeatherCard(props) {
     return (

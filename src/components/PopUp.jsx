@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/Popup.css";
+import "../styles/popup.css";
 
 function Popup(props) {
   const [showConfirm, setShowConfirm] = useState(false);
