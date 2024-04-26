@@ -76,7 +76,7 @@ function Popup(props) {
       <div className="popup-content">
         <div className='row'>
         <div className='col-11'></div>
-        <span className="close-button col-1" onClick={handleCLose}>X</span>
+        <span className="close-button col-1" onClick={handleCLose}>x</span>
         </div>
             {!showConfirm && <div>
                     <h2>Subscribe</h2>
