@@ -1,3 +1,8 @@
+## Description
+This is a basic ReactJS project
+
+Deploy: https://weatherforecast-demo.netlify.app/
+
 ### Requirements
 - [Node.js](https://nodejs.org/) (installed)
 - npm (installed)
@@ -14,4 +19,3 @@
     npm start
     ```
 
-Demo: https://weatherforecast-demo.netlify.app/
