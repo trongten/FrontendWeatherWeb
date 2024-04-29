@@ -82,7 +82,7 @@ function PopUp(props) {
                     <h2>Subscribe</h2>
                     <p>Subscribe to receive daily notifications</p>
                     <div className='formEmail'>
-                        <label for="email" className=''>Enter a city name</label>
+                        <label for="email" className=''>Email</label>
                         <input id="email" className="form-control" onChange={handleInputEmailChange} type="text" placeholder="Enter your email"/> <br />
                         {err && <p className='text-danger'>{err}</p>}
                         <input type="checkbox" checked={checked} onClick={handleClickCheckbox}/> &nbsp;
@@ -95,8 +95,8 @@ function PopUp(props) {
                     <h2>Subscribe</h2>
                     <p>Confirmation code is valid for 120 seconds </p>
                     <div className='formEmail'>
-                        <label for="email" className=''>Enter confirmation code in email</label>
-                        <input id="email" className="form-control" onChange={handleInputCodeChange} type="text" placeholder="Enter confirmation code"/> <br />
+                        <label for="email" className=''>Confirmation code</label>
+                        <input id="email" className="form-control" onChange={handleInputCodeChange} type="text" placeholder="Enter confirmation code in email"/> <br />
                         {err && <p className='text-danger'>{err}</p>}
                         <button className="btn btn-primary col-12" onClick={handleConfirmCode}>Submit</button> 
                     </div>
